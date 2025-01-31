@@ -5,11 +5,11 @@ Ein Kurzbefehl-Projekt für iOS, das die Ladezeit deines iPhones basierend auf d
 
 Funktionen
 
-🔋 Ladezeitvorhersage: Analysiert deine Ladevorgänge und berechnet, wie lange dein iPhone benötigt, um einen bestimmten Ladezustand zu erreichen.
+   🔋 Ladezeitvorhersage: Analysiert deine Ladevorgänge und berechnet, wie lange dein iPhone benötigt, um einen bestimmten Ladezustand zu erreichen.
 
-🔐 Datenschutz: Alle Daten werden ausschließlich auf deinem iPhone gespeichert. Es erfolgt keine Übertragung an externe Server, um maximale Privatsphäre zu gewährleisten.
+   🔐 Datenschutz: Alle Daten werden ausschließlich auf deinem iPhone gespeichert. Es erfolgt keine Übertragung an externe Server, um maximale Privatsphäre zu gewährleisten.
 
-⚙️ Anpassung: Wähle eine gewünschte Ladeprozentzahl (z. B. 81 %), bis zu der dein iPhone aufgeladen werden soll.
+   ⚙️ Anpassung: Wähle eine gewünschte Ladeprozentzahl (z. B. 81 %), bis zu der dein iPhone aufgeladen werden soll.
 
 Voraussetzungen
 
