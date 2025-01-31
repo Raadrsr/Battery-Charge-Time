@@ -1,5 +1,7 @@
 Battery Charge Time
 
+https://www.icloud.com/shortcuts/5abf199f2d4f41ec8c21fa01402609f6
+
 Ein Kurzbefehl-Projekt für iOS, das die Ladezeit deines iPhones basierend auf deinem Ladeverhalten vorhersagt.
 
 
