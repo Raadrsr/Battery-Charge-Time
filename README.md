@@ -1,55 +1,93 @@
-Battery Charge Time
+# Battery Charge Time
 
-https://www.icloud.com/shortcuts/5abf199f2d4f41ec8c21fa01402609f6
-
+<p style="color: blue; text-align: center; font-size: 1.5em;">
 Ein Kurzbefehl-Projekt für iOS, das die Ladezeit deines iPhones basierend auf deinem Ladeverhalten vorhersagt.
+</p>
 
+---
 
-Funktionen
+## 🔧 Funktionen
 
-   🔋 Ladezeitvorhersage: Analysiert deine Ladevorgänge und berechnet, wie lange dein iPhone benötigt, um einen bestimmten Ladezustand zu erreichen.
+<ul>
+  <li><strong>🔋 Ladezeitvorhersage:</strong> Analysiert deine Ladevorgänge und berechnet die Ladezeit.</li>
+  <li><strong>🔐 Datenschutz:</strong> Alle Daten werden <em>ausschließlich auf deinem iPhone gespeichert</em>. Es erfolgt keine Übertragung an externe Server.</li>
+  <li><strong>⚙️ Anpassung:</strong> Wähle eine gewünschte Ladeprozentzahl (z. B. 81 %).</li>
+  <li><strong>📥 Datenabruf:</strong> Wenn keine Trainingsdaten auf deinem iPhone verfügbar sind, werden diese vorübergehend aus diesem GitHub-Projekt abgerufen, um den Kurzbefehl sofort nutzbar zu machen.</li>
+</ul>
 
-   🔐 Datenschutz: Alle Daten werden ausschließlich auf deinem iPhone gespeichert. Es erfolgt keine Übertragung an externe Server, um maximale Privatsphäre zu gewährleisten.
+---
 
-   ⚙️ Anpassung: Wähle eine gewünschte Ladeprozentzahl (z. B. 81 %), bis zu der dein iPhone aufgeladen werden soll.
+## 📋 Voraussetzungen
 
-Voraussetzungen
+<p>Folgende Bedingungen müssen erfüllt sein, damit der Kurzbefehl funktioniert:</p>
 
-iPhone mit iOS und der App Kurzbefehle.
+<ul>
+  <li>📱 iPhone mit iOS und der App <strong>Kurzbefehle</strong>.</li>
+  <li>☁️ Aktivierte Synchronisation für <strong>iCloud Drive</strong>.</li>
+  <li>📂 Ordnerstruktur in iCloud Drive:</li>
+</ul>
 
-Aktivierte Synchronisation für iCloud Drive.
+<pre>
+iCloud Drive/Shortcuts/Ladezeit/Differenzszeit
+</pre>
 
-Ordnerstruktur in iCloud Drive:
+---
 
-    iCloud Drive/Shortcuts/Ladezeit/Differenzszeit
+## ⚡ Automationen
 
-Wichtige Hinweise
+<h3>1. Beim Anschließen des iPhones an das Ladekabel</h3>
+<p>Führt den Kurzbefehl <strong>„Battery Charge Time“</strong> aus und übergibt die Zahl <strong>0</strong>.</p>
 
-1. Erlernte Daten: Der Kurzbefehl benötigt mehrere vollständige Ladevorgänge, um genaue Vorhersagen zu treffen.
+<h3>2. Beim Erreichen des gewünschten Ladezustands</h3>
+<p>Führt den Kurzbefehl <strong>„Battery Charge Time“</strong> aus und übergibt die Zahl <strong>1</strong>.</p>
 
-2. Vollständiges Laden: Lade dein iPhone immer bis zur angegebenen Prozentzahl (z. B. 81 %).
+---
 
-      Wird der Ladevorgang vorzeitig abgebrochen, werden keine Daten gespeichert.
+## 🛠️ Wichtige Ordnerstruktur
 
-3. Datensicherheit: Alle Daten verbleiben auf deinem Gerät. Es erfolgt keine Übertragung an Dritte.
+<p>Damit der Kurzbefehl korrekt funktioniert, muss folgende Ordnerstruktur im <strong>Shortcuts-Ordner</strong> auf <strong>iCloud Drive</strong> eingerichtet werden:</p>
 
-Automationen
+<ul>
+  <li><strong>1. Ordner „Ladezeit“:</strong> Dieser Ordner muss sich im Verzeichnis <code>iCloud Drive/Shortcuts</code> befinden.</li>
+  <li><strong>2. Ordner „Differenzszeit“:</strong> Dieser Ordner muss sich innerhalb des Ordners <code>Ladezeit</code> befinden.</li>
+</ul>
 
-Richte die folgenden Automationen ein, um den Kurzbefehl vollständig zu automatisieren:
+<p>Zusammengefasst sollte der vollständige Pfad wie folgt aussehen:</p>
 
-1. Beim Anschließen des iPhones an das Ladekabel
-Führt den Kurzbefehl „Battery Charge Time“ aus und übergibt die Zahl 0.
+<pre>
+iCloud Drive/Shortcuts/Ladezeit/Differenzszeit
+</pre>
 
-2. Beim Erreichen des gewünschten Ladezustands (z. B. 81 %)
-Führt den Kurzbefehl „Battery Charge Time“ aus und übergibt die Zahl 1.
+<p>Bitte stelle sicher, dass diese Ordnerstruktur auf iCloud Drive existiert. Wenn sie noch nicht vorhanden ist, erstelle sie manuell.</p>
 
-Installation
+---
 
-1. Lade den Kurzbefehl herunter und füge ihn zu deiner Kurzbefehle-App hinzu.
+## 🛠️ Installation
 
-2. Stelle sicher, dass die Ordnerstruktur wie folgt eingerichtet ist:
+<ol>
+  <li><strong>Kurzbefehl herunterladen:</strong> Lade den Kurzbefehl <a href="https://www.icloud.com/shortcuts/5abf199f2d4f41ec8c21fa01402609f6">hier herunter</a> und füge ihn zu deiner <strong>Kurzbefehle-App</strong> hinzu.</li>
+  <li>Stelle sicher, dass die Ordnerstruktur wie oben beschrieben eingerichtet ist.</li>
+  <li>Wenn keine Trainingsdaten vorhanden sind, werden diese automatisch aus diesem GitHub-Projekt abgerufen, bis der Kurzbefehl genügend eigene Daten gesammelt hat.</li>
+  <li>Erstelle die Automationen gemäß den Anweisungen.</li>
+</ol>
 
-        iCloud Drive/Shortcuts/Ladezeit/Differenzszeit
+---
 
-3. Erstelle die Automationen gemäß der oben genannten Anleitung.
+## ⚠️ Wichtige Hinweise
 
+<p>Der Kurzbefehl benötigt einige Ladevorgänge, um die richtige Ladezeit für dein iPhone vorhersagen zu können. Dazu ist es notwendig, dass die Ladegewohnheiten gespeichert und analysiert werden.</p>
+
+<ul>
+  <li><strong>Lade dein iPhone immer bis zur gewünschten Prozentzahl (z. B. 81 %),</strong> wie im Kurzbefehl angegeben.</li>
+  <li><strong>Abgebrochene Ladevorgänge:</strong> Wenn der Ladevorgang vorzeitig abgebrochen wird, werden keine Daten gespeichert. In diesem Fall kann der Kurzbefehl keine weiteren Verbesserungen in der Vorhersage vornehmen.</li>
+  <li><strong>Datenabruf:</strong> Solange keine Trainingsdaten verfügbar sind, werden Platzhalterdaten aus diesem GitHub-Projekt verwendet, um eine funktionale Vorhersage zu ermöglichen.</li>
+</ul>
+
+<h4>Datenschutz:</h4>
+<p>Alle Daten, die der Kurzbefehl speichert, verbleiben <strong>ausschließlich auf deinem iPhone</strong>. Es erfolgt keine Übertragung von persönlichen Daten an externe Server oder Dritte. Die vorübergehenden Daten aus diesem GitHub-Projekt sind anonymisiert und dienen nur zur Initialisierung.</p>
+
+---
+
+## 📜 Lizenz
+
+<p>Dieses Projekt steht unter der <strong>MIT-Lizenz</strong>. Weitere Informationen findest du in der Datei <a href="./LICENSE">LICENSE</a>.</p>
