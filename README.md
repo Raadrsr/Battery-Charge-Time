@@ -11,6 +11,12 @@ Ein Kurzbefehl-Projekt für iOS, das die Ladezeit deines iPhones basierend auf d
 <ul>
   <li><strong>📂 Automatische Ordnerstruktur:</strong> Der Kurzbefehl erstellt nun automatisch die erforderliche Ordnerstruktur in iCloud Drive. Keine manuelle Einrichtung mehr notwendig.</li>
   <li><strong>⚡ Adapter-Auswahl:</strong> Neue Funktion zur Auswahl des verwendeten Stromadapters (5V oder 20V), um die Ladezeitberechnung noch präziser zu gestalten. Standardmäßig wird 20V angenommen.</li>
+  <li><strong>📝 Wichtiger Hinweis für Update-Nutzer:</strong> Wenn du bereits die alte Version des Kurzbefehls im Pfad <code>iCloud Drive/Shortcuts/Ladezeit/Differenzszeit</code> gespeichert hast, musst du die vorhandenen Dateien manuell in die neuen Verzeichnisse verschieben:
+    <ul>
+      <li>Für den 20V-Stecker: <code>iCloud Drive/Shortcuts/BatteryChargeTime/Differenzszeit/20</code></li>
+      <li>Für den 5V-Stecker: <code>iCloud Drive/Shortcuts/BatteryChargeTime/Differenzszeit/5</code></li>
+    </ul>
+  </li>
 </ul>
 
 ---
@@ -53,6 +59,12 @@ Ein Kurzbefehl-Projekt für iOS, das die Ladezeit deines iPhones basierend auf d
 <ol>
   <li><strong>Kurzbefehl herunterladen:</strong> Lade den Kurzbefehl <a href="https://www.icloud.com/shortcuts/e813df1e39434cf691f396416603ec63">hier herunter</a> und füge ihn zu deiner <strong>Kurzbefehle-App</strong> hinzu.</li>
   <li>Die erforderliche Ordnerstruktur wird nun automatisch erstellt. Kein manuelles Eingreifen erforderlich.</li>
+  <li><strong>⚠️ Hinweis für Update-Nutzer:</strong> Verschiebe vorhandene Daten aus dem alten Verzeichnis <code>iCloud Drive/Shortcuts/Ladezeit/Differenzszeit</code> manuell in die neuen Verzeichnisse:
+    <ul>
+      <li><code>iCloud Drive/Shortcuts/BatteryChargeTime/Differenzszeit/20</code> (für den 20V-Stecker)</li>
+      <li><code>iCloud Drive/Shortcuts/BatteryChargeTime/Differenzszeit/5</code> (für den 5V-Stecker)</li>
+    </ul>
+  </li>
   <li>Wenn keine Trainingsdaten vorhanden sind, werden diese automatisch aus diesem GitHub-Projekt abgerufen, bis der Kurzbefehl genügend eigene Daten gesammelt hat.</li>
   <li>Erstelle die Automationen gemäß den Anweisungen.</li>
 </ol>
