@@ -6,6 +6,15 @@ Ein Kurzbefehl-Projekt für iOS, das die Ladezeit deines iPhones basierend auf d
 
 ---
 
+## 🚀 Version 2.0 - Was ist neu?
+
+<ul>
+  <li><strong>📂 Automatische Ordnerstruktur:</strong> Der Kurzbefehl erstellt nun automatisch die erforderliche Ordnerstruktur in iCloud Drive. Keine manuelle Einrichtung mehr notwendig.</li>
+  <li><strong>⚡ Adapter-Auswahl:</strong> Neue Funktion zur Auswahl des verwendeten Stromadapters (5V oder 20V), um die Ladezeitberechnung noch präziser zu gestalten. Standardmäßig wird 20V angenommen.</li>
+</ul>
+
+---
+
 ## 🔧 Funktionen
 
 <ul>
@@ -13,6 +22,7 @@ Ein Kurzbefehl-Projekt für iOS, das die Ladezeit deines iPhones basierend auf d
   <li><strong>🔐 Datenschutz:</strong> Alle Daten werden <em>ausschließlich auf deinem iPhone gespeichert</em>. Es erfolgt keine Übertragung an externe Server.</li>
   <li><strong>⚙️ Anpassung:</strong> Wähle eine gewünschte Ladeprozentzahl (z. B. 81 %).</li>
   <li><strong>📥 Datenabruf:</strong> Wenn keine Trainingsdaten auf deinem iPhone verfügbar sind, werden diese vorübergehend aus diesem GitHub-Projekt abgerufen, um den Kurzbefehl sofort nutzbar zu machen.</li>
+  <li><strong>🔌 Präzise Ladezeitberechnung:</strong> Gib den verwendeten Stromadapter (5V oder 20V) an. Standardmäßig wird 20V für Schnellladen verwendet.</li>
 </ul>
 
 ---
@@ -24,12 +34,7 @@ Ein Kurzbefehl-Projekt für iOS, das die Ladezeit deines iPhones basierend auf d
 <ul>
   <li>📱 iPhone mit iOS und der App <strong>Kurzbefehle</strong>.</li>
   <li>☁️ Aktivierte Synchronisation für <strong>iCloud Drive</strong>.</li>
-  <li>📂 Ordnerstruktur in iCloud Drive:</li>
 </ul>
-
-<pre>
-iCloud Drive/Shortcuts/Ladezeit/Differenzszeit
-</pre>
 
 ---
 
@@ -43,30 +48,11 @@ iCloud Drive/Shortcuts/Ladezeit/Differenzszeit
 
 ---
 
-## 🛠️ Wichtige Ordnerstruktur
-
-<p>Damit der Kurzbefehl korrekt funktioniert, muss folgende Ordnerstruktur im <strong>Shortcuts-Ordner</strong> auf <strong>iCloud Drive</strong> eingerichtet werden:</p>
-
-<ul>
-  <li><strong>1. Ordner „Ladezeit“:</strong> Dieser Ordner muss sich im Verzeichnis <code>iCloud Drive/Shortcuts</code> befinden.</li>
-  <li><strong>2. Ordner „Differenzszeit“:</strong> Dieser Ordner muss sich innerhalb des Ordners <code>Ladezeit</code> befinden.</li>
-</ul>
-
-<p>Zusammengefasst sollte der vollständige Pfad wie folgt aussehen:</p>
-
-<pre>
-iCloud Drive/Shortcuts/Ladezeit/Differenzszeit
-</pre>
-
-<p>Bitte stelle sicher, dass diese Ordnerstruktur auf iCloud Drive existiert. Wenn sie noch nicht vorhanden ist, erstelle sie manuell.</p>
-
----
-
 ## 🛠️ Installation
 
 <ol>
   <li><strong>Kurzbefehl herunterladen:</strong> Lade den Kurzbefehl <a href="https://www.icloud.com/shortcuts/5abf199f2d4f41ec8c21fa01402609f6">hier herunter</a> und füge ihn zu deiner <strong>Kurzbefehle-App</strong> hinzu.</li>
-  <li>Stelle sicher, dass die Ordnerstruktur wie oben beschrieben eingerichtet ist.</li>
+  <li>Die erforderliche Ordnerstruktur wird nun automatisch erstellt. Kein manuelles Eingreifen erforderlich.</li>
   <li>Wenn keine Trainingsdaten vorhanden sind, werden diese automatisch aus diesem GitHub-Projekt abgerufen, bis der Kurzbefehl genügend eigene Daten gesammelt hat.</li>
   <li>Erstelle die Automationen gemäß den Anweisungen.</li>
 </ol>
@@ -80,6 +66,7 @@ iCloud Drive/Shortcuts/Ladezeit/Differenzszeit
 <ul>
   <li><strong>Lade dein iPhone immer bis zur gewünschten Prozentzahl (z. B. 81 %),</strong> wie im Kurzbefehl angegeben.</li>
   <li><strong>Abgebrochene Ladevorgänge:</strong> Wenn der Ladevorgang vorzeitig abgebrochen wird, werden keine Daten gespeichert. In diesem Fall kann der Kurzbefehl keine weiteren Verbesserungen in der Vorhersage vornehmen.</li>
+  <li><strong>Adapter-Auswahl:</strong> Wähle beim Start des Kurzbefehls den verwendeten Stromadapter (5V oder 20V). Standardmäßig wird 20V für Schnellladen verwendet.</li>
   <li><strong>Datenabruf:</strong> Solange keine Trainingsdaten verfügbar sind, werden Platzhalterdaten aus diesem GitHub-Projekt verwendet, um eine funktionale Vorhersage zu ermöglichen.</li>
 </ul>
 
