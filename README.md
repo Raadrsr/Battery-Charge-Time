@@ -51,7 +51,7 @@ Ein Kurzbefehl-Projekt für iOS, das die Ladezeit deines iPhones basierend auf d
 ## 🛠️ Installation
 
 <ol>
-  <li><strong>Kurzbefehl herunterladen:</strong> Lade den Kurzbefehl <a href="https://www.icloud.com/shortcuts/5abf199f2d4f41ec8c21fa01402609f6">hier herunter</a> und füge ihn zu deiner <strong>Kurzbefehle-App</strong> hinzu.</li>
+  <li><strong>Kurzbefehl herunterladen:</strong> Lade den Kurzbefehl <a href="https://www.icloud.com/shortcuts/e4bffe4b51374681ac30f6a3d2c8f541">hier herunter</a> und füge ihn zu deiner <strong>Kurzbefehle-App</strong> hinzu.</li>
   <li>Die erforderliche Ordnerstruktur wird nun automatisch erstellt. Kein manuelles Eingreifen erforderlich.</li>
   <li>Wenn keine Trainingsdaten vorhanden sind, werden diese automatisch aus diesem GitHub-Projekt abgerufen, bis der Kurzbefehl genügend eigene Daten gesammelt hat.</li>
   <li>Erstelle die Automationen gemäß den Anweisungen.</li>
