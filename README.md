@@ -57,7 +57,7 @@ Ein Kurzbefehl-Projekt für iOS, das die Ladezeit deines iPhones basierend auf d
 ## 🛠️ Installation
 
 <ol>
-  <li><strong>Kurzbefehl herunterladen:</strong> Lade den Kurzbefehl <a href="https://www.icloud.com/shortcuts/106b9036568e4004a75c9dc4af00422d">hier herunter</a> und füge ihn zu deiner <strong>Kurzbefehle-App</strong> hinzu.</li>
+  <li><strong>Kurzbefehl herunterladen:</strong> Lade den Kurzbefehl <a href="https://www.icloud.com/shortcuts/fc72f5a32f9a422eb0b3bd3228511256">hier herunter</a> und füge ihn zu deiner <strong>Kurzbefehle-App</strong> hinzu.</li>
   <li>Die erforderliche Ordnerstruktur wird nun automatisch erstellt. Kein manuelles Eingreifen erforderlich.</li>
   <li><strong>⚠️ Hinweis für Update-Nutzer:</strong> Verschiebe vorhandene Daten aus dem alten Verzeichnis <code>iCloud Drive/Shortcuts/Ladezeit/Differenzszeit</code> manuell in die neuen Verzeichnisse:
     <ul>
